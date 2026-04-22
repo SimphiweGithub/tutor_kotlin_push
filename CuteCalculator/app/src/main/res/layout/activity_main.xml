@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Main calculator layout -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFE4EC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- First number input -->
+    <EditText
+        android:id="@+id/editNumber1"
+        android:hint="Enter first number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Second number input -->
+    <EditText
+        android:id="@+id/editNumber2"
+        android:hint="Enter second number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <!-- ADD button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Add 💗"
+        android:backgroundTint="#FF69B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+    <!-- SUBTRACT button -->
+    <Button
+        android:id="@+id/btnSubtract"
+        android:text="Subtract 💗"
+        android:backgroundTint="#FFB6C1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- MULTIPLY button -->
+    <Button
+        android:id="@+id/btnMultiply"
+        android:text="Multiply 💗"
+        android:backgroundTint="#FF69B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- DIVIDE button -->
+    <Button
+        android:id="@+id/btnDivide"
+        android:text="Divide 💗"
+        android:backgroundTint="#FFB6C1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- CLEAR button -->
+    <Button
+        android:id="@+id/btnClear"
+        android:text="Clear 🧹"
+        android:backgroundTint="#FFC0CB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <!-- GO TO RESULT button -->
+    <Button
+        android:id="@+id/btnGoToResult"
+        android:text="@string/go_to_result"
+        android:backgroundTint="#FF69B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
